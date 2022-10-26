@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+ 
+    
+}
+
+
+body{
+    background-color: #F7E4D4;
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+            .vissza{
+                color: #467745;
+                font-size: 48px;
+                font-family: 'EB Garamond';
+                margin-bottom: 20px;
+            }
+
+            .targy{
+                max-width: 480px;
+                width: 100%;
+                height: 64px;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            ::placeholder{
+                color: #467745;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                font-weight: 500;
+            }
+            
+
+            .megjegyzes{
+                max-width: 480px;
+                width: 100%;
+                height: 120px;
+                color: #467745;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                font-weight: 500;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            .boxinput{
+                display: flex;
+                flex-direction: row;
+                justify-content:flex-start ;
+                max-width: 480px;
+                width: 100%;
+                margin-bottom: 40px;
+                margin-top: 20px;
+                color: #467745;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                font-weight: 500;
+                
+                    a{
+                        color:#467745
+                    }
+            }
+
+            .adatvedelmi{
+                margin-left: 20px;
+            }
+            
+       
+
+            .mentes{
+                background-color: #467745;
+                color:#F7E4D4;
+                font-size: 21px;
+                max-width: 280px;
+                width: 100%;
+                height: 80px;
+                letter-spacing: 0.2em;
+                font-family: 'EB Garamond';
+                border-radius: 40px;
+            }
+
+
+            @media screen and (max-width: 520px) {
+                .vissza{
+                    font-size: 36px;
+                }
+                .targy{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    width: calc(100% - 40px);
+                }
+                .megjegyzes{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    width: calc(100% - 40px);
+                }
+                .adatvedelmi{
+                    word-break: break-all;
+                }
+
+                input{
+                    margin-left: 20px;
+                }
+            }
+        }
+
+
+      

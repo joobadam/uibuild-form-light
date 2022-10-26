@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body {
+  background-color: #F7E4D4;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .vissza {
+  color: #467745;
+  font-size: 48px;
+  font-family: "EB Garamond";
+  margin-bottom: 20px;
+}
+.container .targy {
+  max-width: 480px;
+  width: 100%;
+  height: 64px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.container ::-moz-placeholder {
+  color: #467745;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.container :-ms-input-placeholder {
+  color: #467745;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.container ::placeholder {
+  color: #467745;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.container .megjegyzes {
+  max-width: 480px;
+  width: 100%;
+  height: 120px;
+  color: #467745;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.container .boxinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 480px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  color: #467745;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.container .boxinput a {
+  color: #467745;
+}
+.container .adatvedelmi {
+  margin-left: 20px;
+}
+.container .mentes {
+  background-color: #467745;
+  color: #F7E4D4;
+  font-size: 21px;
+  max-width: 280px;
+  width: 100%;
+  height: 80px;
+  letter-spacing: 0.2em;
+  font-family: "EB Garamond";
+  border-radius: 40px;
+}
+@media screen and (max-width: 520px) {
+  .container .vissza {
+    font-size: 36px;
+  }
+  .container .targy {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+  .container .megjegyzes {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+  .container .adatvedelmi {
+    word-break: break-all;
+  }
+  .container input {
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
